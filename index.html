@@ -362,7 +362,7 @@
 
       if (
         namaValue === '' ||
-        teleponValue.length < 10 || !/^08\d+$/.test(teleponValue) ||
+        teleponValue.length < 11 || !/^08\d+$/.test(teleponValue) ||
         isNaN(jumlahValue) || jumlahValue < 10000
       ) {
         errorMsg.style.display = 'block';
